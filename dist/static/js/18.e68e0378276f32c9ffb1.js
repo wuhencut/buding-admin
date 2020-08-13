@@ -1,0 +1,2 @@
+webpackJsonp([18],{"1wUX":function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var a={render:function(){var e=this.$createElement;return(this._self._c||e)("div")},staticRenderFns:[]};var r=t("VU/8")({name:"notifyManagement"},a,!1,function(e){t("MlbQ")},"data-v-178d7055",null);n.default=r.exports},MlbQ:function(e,n){}});
+//# sourceMappingURL=18.e68e0378276f32c9ffb1.js.map

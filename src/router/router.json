@@ -1,0 +1,26 @@
+{
+  "indexManagement": {
+    "label": "管理首页",
+    "children": {
+      "authentication": "工作台",
+      "feedbackInfoDeal": "反馈信息",
+      "appealTaskDeal": "申诉任务",
+      "reportTaskDeal": "举报信息",
+      "withdraw": "提现管理"
+    }
+  },
+  "userManagement": {
+    "label": "用户管理",
+    "children": {
+      "roleManagement": "角色管理",
+      "taskManagement": "任务管理",
+      "accountManage": "平台账户"
+    }
+  },
+  "platformManagement": {
+    "label": "平台管理",
+    "children": {
+      "nearTask": "附近任务"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, p, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+body {
+    font-family: "PingFang SC", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #F5F6F7;
+    color: #303133;
+    .page{
+        .page-title{
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        .tip-icon{
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            border-radius: 5px;
+            background-color: #b3b5b7;
+            margin-right: 6px;
+            vertical-align: 2px;
+        }
+        .tip-fail{
+            background-color: #f32b35;
+        }
+        .tip-suc{
+            background-color: #49bc19;
+        }
+    }
+}
+
+input {
+    line-height: normal !important;
+}
+
+input::-webkit-contacts-auto-fill-button {
+    visibility: hidden;
+    display: none !important;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+}
+
+input, button {
+    font-family: "PingFang SC", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+/*wangEditor样式重置*/
+.w-e-toolbar {
+    border: 1px solid #dcdfe6 !important;
+    background: #fbfdff !important;
+    border-radius: 4px 4px 0 0;
+}
+
+.w-e-toolbar .w-e-menu i {
+    color: #97a8be !important;
+}
+
+.w-e-toolbar .w-e-active i {
+    color: #20a0ff !important;
+}
+
+.w-e-text-container {
+    height: auto !important;
+    border: 1px solid #dcdfe6 !important;
+    border-top: none !important;
+    border-radius: 0 0 4px 4px;
+    overflow: hidden;
+}
+
+.w-e-text {
+    min-height: 300px !important;
+    color: #1f2d3d;
+}
+
+.w-e-text img {
+    max-width: 100% !important;
+    vertical-align: bottom !important;
+}
+
+.w-e-text img:hover {
+    box-shadow: none !important;
+}
+
+.w-e-text img.w-e-selected {
+    border: none !important;
+}
+
+.txt-red {
+    color: red;
+}
+
+.txt-green {
+    color: #02c149;
+}
